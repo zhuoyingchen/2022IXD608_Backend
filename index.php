@@ -4,25 +4,9 @@
 	
 	<title>Furniture store home page</title>
 	<? include "parts/meta.php"; ?>
-	
 </head>
 <body>
-	<header>
-		<div class="container display-flex">
-			<div class="flex-none">
-				<h1>Furniture store</h1>
-			</div>
-			<div class="flex-stretch"></div>
-			<div class="flex-none nav">
-				<ul class="container display-flex">
-					<li><a href="#article1">Furniture</a></li>
-					<li><a href="#article2">Style</a></li>
-					<li><a href="#article3">Materials</a></li>
-					<li><a href="#article4">office</a></li>
-				</ul>
-			</div>
-		</div>
-	</header>
+	<? include "parts/navbar.php"?>
     <div class="container">
     	<div class="card soft">
     		<h2>Grid</h2>
