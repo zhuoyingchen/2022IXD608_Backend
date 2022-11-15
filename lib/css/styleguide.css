@@ -71,6 +71,12 @@ a:hover {
 .flex-justify-center {
 	justify-content: center;
 }
+.flex-space-between {
+	justify-content: space-between;
+}
+.flex-column {
+	flex-direction: column;
+}
 
 
 
@@ -202,8 +208,13 @@ a:hover {
     .card.flat {
     	padding: 0;
     }
-
-
+    .card-selection~.card-selection {
+    	border-top: 1px solid var(--color-neutral-light);
+    }
+    .card-selection {
+    	padding: 1em;
+    }
+    
 
 
 /* WELL */
@@ -272,6 +283,9 @@ hr {
 }
 .figure figcaption {
 	padding: 1em;
+}
+figcaption div {
+	text-align: center;
 }
 
 /* form */
